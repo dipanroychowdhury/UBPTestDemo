@@ -10,17 +10,6 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
         System.out.printf("Hello and welcome in UBP Insert Demo!");
-
-//             for (int i = 1 ; i<= 100; i++) {
-//                 Random random = new Random();
-//                 int randomNum =  random.nextInt(2000);
-//                 List<Integer> randoms = random.ints(randomNum)
-//                         .boxed()
-//                         .collect(Collectors.toList());
-//                 System.out.println("random == " + randoms.toString());
-//                 System.out.println("Size []  " + randoms.size());
-//             }
-
         VectorInsertDemo vectorInsertDemo = new VectorInsertDemo();
         vectorInsertDemo.VectorDBInsert();
     }
