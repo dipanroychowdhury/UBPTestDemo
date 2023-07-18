@@ -32,8 +32,8 @@ public class VectorInsertDemo {
             System.out.println("Size []  " + randoms.size());
             String strRandoms = randoms.stream()
                     .map(x -> x.toString())
-                    .collect(Collectors.joining("|"));
-            System.out.println("| separated String: " + strRandoms);
+                    .collect(Collectors.joining(" | "));
+            System.out.println("Inserted Data as BLOB: " + strRandoms);
             query1 = "INSERT INTO VectorDemo " + "VALUES ( " + i +" , " + strRandoms +" , 'UBPTest')";
             stmt.executeUpdate(query1);
         }
