@@ -13,7 +13,7 @@ public class CalculateMeanAndSD {
     public void getVectorDetails(){
 
         VectorInsertDemo vectorInsertDemo = new VectorInsertDemo();
-        Map<Integer,List<String>> vectorDetailsMap = vectorInsertDemo.readTable("dipan", "Dipanrc@2023", "localhost");
+        Map<Integer,List<String>> vectorDetailsMap = vectorInsertDemo.readTable("dipan", "XXXXXXXXXXX", "localhost");
         for (Map.Entry<Integer, List<String>> ee : vectorDetailsMap.entrySet()) {
             String key = String.valueOf(ee.getKey());
             System.out.println("keys "+key);
