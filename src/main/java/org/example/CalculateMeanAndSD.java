@@ -29,7 +29,7 @@ public class CalculateMeanAndSD {
     public static double[] toDoubleArray(List<String> stringArray) {
         if (stringArray == null) {
             return null;
-        }//from   ww  w  .j  a v a  2 s.c  om
+        }
         double[] result = new double[stringArray.size()];
         for (int i = 0; i < stringArray.size(); i++) {
             try {
