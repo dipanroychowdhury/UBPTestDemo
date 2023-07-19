@@ -22,7 +22,7 @@ public class VectorInsertDemo {
         } catch (Exception e) {
             System.out.println(e);
         }
-        conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/ubc_test", "dipan", "Dipanrc@2023");
+        conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/ubc_test", "dipan", "XXXXXXXX");
         System.out.println("Connection is created successfully:");
         stmt = (Statement) conn.createStatement();
         String query1 = "";
