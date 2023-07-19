@@ -12,5 +12,6 @@ public class Main {
         System.out.printf("Hello and welcome in UBP Insert Demo!");
         VectorInsertDemo vectorInsertDemo = new VectorInsertDemo();
         vectorInsertDemo.VectorDBInsert();
+
     }
 }
