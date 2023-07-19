@@ -9,7 +9,7 @@ public class GenerateRandomNumber {
 
     public List<Integer> generateRandomNumbers(){
         Random random = new Random();
-        int randomNum =  random.nextInt(200);
+        int randomNum =  random.nextInt(2000);
 
         List<Integer> randoms = random.ints(randomNum)
                 .boxed()
