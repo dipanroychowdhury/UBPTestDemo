@@ -27,7 +27,7 @@ public class VectorInsertDemo {
         stmt = (Statement) conn.createStatement();
         String query1 = "";
         GenerateRandomNumber  generateRandomNumber = null;
-        for(int i = 1 ; i <= 100 ; i++) {
+        for(int i = 1 ; i <= 2000 ; i++) {
             generateRandomNumber = new GenerateRandomNumber();
             List<Integer> randoms = generateRandomNumber.generateRandomNumbers();
             System.out.println("random == " + randoms.toString());
