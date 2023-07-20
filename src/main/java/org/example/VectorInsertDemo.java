@@ -22,12 +22,12 @@ public class VectorInsertDemo {
         } catch (Exception e) {
             System.out.println(e);
         }
-        conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/ubc_test", "dipan", "Dipanrc@2023");
+        conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/ubc_test", "dipan", "XXXXXXXX");
         System.out.println("Connection is created successfully:");
         stmt = (Statement) conn.createStatement();
         String query1 = "";
         GenerateRandomNumber  generateRandomNumber = null;
-        for(int i = 1 ; i <= 100 ; i++) {
+        for(int i = 1 ; i <= 2000 ; i++) {
             generateRandomNumber = new GenerateRandomNumber();
             List<Integer> randoms = generateRandomNumber.generateRandomNumbers();
             System.out.println("random == " + randoms.toString());
